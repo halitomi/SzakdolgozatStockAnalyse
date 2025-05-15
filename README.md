@@ -19,11 +19,11 @@ The system performs stock forecasting by:
 
 Features
 
-- ✅ BERT-based sentiment models fine-tuned on domain-specific Reddit and news datasets
-- ✅ Technical indicator calculations: RSI, MACD, MA50/MA200, Bollinger Bands, SAR, Stochastic
-- ✅ CrewAI multi-agent system for layered financial interpretation and investment strategy generation
-- ✅ Optional LLM model selection between local (LLaMA 3.2 via Ollama) and external (GPT-4, Claude, etc.)
-- ✅ Fully modular Streamlit dashboard
+-  BERT-based sentiment models fine-tuned on domain-specific Reddit and news datasets
+-  Technical indicator calculations: RSI, MACD, MA50/MA200, Bollinger Bands, SAR, Stochastic
+-  CrewAI multi-agent system for layered financial interpretation and investment strategy generation
+-  Optional LLM model selection between local (LLaMA 3.2 via Ollama) and external (GPT-4, Claude, etc.)
+-  Fully modular Streamlit dashboard
 
 ---
 
