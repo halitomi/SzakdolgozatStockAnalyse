@@ -31,8 +31,8 @@ How to Run the Application
 
 1. Clone the Repository
 bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/your-username/SzakdolgozatStockAnalyse.git
+cd SzakdolgozatStockAnalyse
 
 2. Set Up a Virtual Environment
 python -m venv venv
