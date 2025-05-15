@@ -52,7 +52,7 @@ OPENROUTER_API_KEY=your_openrouter_key
 5. Launch the App
 streamlit run app.py
 
-.
+project/
 ├── app.py                          # Streamlit frontend
 ├── main_llm.py                     # LLM/CrewAI-based analysis logic
 ├── crew.py                         # CrewAI agent/task setup
@@ -90,7 +90,6 @@ After downloading:
 2. Place them into the root project directory so that your folder looks like this:
 
 project/
-.
 ├── saved_model_news/
 │ ├── config.json
 │ ├── pytorch_model.bin
