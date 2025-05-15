@@ -30,7 +30,7 @@ Features
 How to Run the Application
 
 1. Clone the Repository
-```bash
+bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 
@@ -52,7 +52,6 @@ OPENROUTER_API_KEY=your_openrouter_key
 5. Launch the App
 streamlit run app.py
 
-
 .
 ├── app.py                          # Streamlit frontend
 ├── main_llm.py                     # LLM/CrewAI-based analysis logic
@@ -70,7 +69,6 @@ streamlit run app.py
 │   └── competitor_analysis_tool.py
 ├── saved_model_news/               # Fine-tuned BERT model for news
 ├── fine_tuned_reddit_model/        # Fine-tuned BERT model for Reddit
-├── .env                            # API keys for testing (included temporarily)
 ├── .env.example                    # Template for environment setup
 ├── .gitignore                      # Files to exclude from Git
 ├── requirements.txt                # All dependencies
@@ -81,6 +79,26 @@ Notes
 Ollama must be running locally to use the LLaMA 3.2 model.
 
 OpenRouter allows remote access to OpenAI, Claude, and Gemini models if configured.
+
+This project requires two fine-tuned BERT models for sentiment analysis.
+
+Download them from Google Drive:
+https://drive.google.com/drive/folders/1A0l0vaYacPwBi7ICQ9h6fRkHScNmayJF?usp=drive_link
+After downloading:
+
+1. Extract each folder
+2. Place them into the root project directory so that your folder looks like this:
+project/
+├── saved_model_news/
+│ ├── config.json
+│ ├── pytorch_model.bin
+│ └── ...
+├── fine_tuned_reddit_model/
+│ ├── config.json
+│ ├── pytorch_model.bin
+│ └── ...
+├── app.py
+├── ...
 
 Author
 Tamas Halasz
