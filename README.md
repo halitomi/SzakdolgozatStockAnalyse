@@ -88,7 +88,9 @@ After downloading:
 
 1. Extract each folder
 2. Place them into the root project directory so that your folder looks like this:
+
 project/
+.
 ├── saved_model_news/
 │ ├── config.json
 │ ├── pytorch_model.bin
